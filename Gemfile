@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Simplifies creation of SOAP service providers
+gem 'wash_out'
+
+gem 'httpi', group: [:development, :test]
+gem 'savon', group: [:development, :test]

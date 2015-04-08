@@ -54,3 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 end
+
+RailsSoapCalculator::Application.routes.draw do
+  wash_out :calc
+end
